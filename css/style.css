@@ -20,7 +20,7 @@ body{
     color: #EED03C !important;
 }
 .nav-link {
-    text-transform: uppercase;
+    font-size: 1rem;
   }
 .nav-link.active {
     background-color: #FFCA47 !important;
