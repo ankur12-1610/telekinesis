@@ -1,0 +1,48 @@
+.navbar-nav {
+    margin-left: auto !important;
+    margin-right: 0px !important;
+}
+body{
+    font-family: 'Poppins' !important;
+    position: relative;
+}
+
+.calign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+  }
+.nav-text{
+ color:white;
+}
+.nav-text:hover {
+    color: #EED03C !important;
+}
+.nav-link {
+    text-transform: uppercase;
+  }
+.nav-link.active {
+    background-color: #FFCA47 !important;
+    color:white !important;
+  }
+.alternate{
+    background-color: #FFCA47 !important;
+    color:white !important;
+}
+.progress-container {
+    width: 100% !important;
+    height: 2px;
+  }
+  
+  /* The progress bar (scroll indicator) */
+  .progress-bar {
+    height: 2px;
+    background: #fff !important;
+    width: 0%;
+  }
+.postion{
+    position:fixed;
+    top: 50vh;
+    z-index: 100;
+}
